@@ -1,0 +1,53 @@
+<!-- index.html
+  Author:         Jack
+  Date:           2024-04-12
+  Last rev:       2024-07-15
+  Description:    Landing page for jQuery/cookies lab
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jack Ramsey">    
+  <meta name="date" content="2024-04-12">    
+  <meta name="last revised" content="2024-07-15">    
+  <meta name="description" content="Cookies">    
+  <meta name="keywords" content="etsu, csci, csci 1720, labs, lab 12, cookies">    
+  <title>Task List</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="https://csci1720.net/images/jquery_transparent.png">
+</head>
+<body>
+  <header>
+    <h1>Task List</h1>
+    <img src="media/print.png" alt="print icon" id="print-icon">
+  </header>
+  <!-- Main content -->  
+  <main>
+    <!-- To Do list (items) -->
+    <div class="list">
+      <h1>To Do:</h1>
+      <!-- Note: list starts out empty -->
+      <ul id="tasks"></ul>
+    </div>
+
+    <!-- Input form -->
+    <div class="form">
+      <!-- Input & label-->
+      <div id="inputField">
+        <label for="task">Task</label><br>
+        <input type="text" name="task" id="task">      
+      </div>
+
+      <!-- Add/Reset buttons-->
+      <div id="buttons">
+        <input type="button" name="add_task" id="add_task" value="Add Task">
+        <input type="button" name="clear_tasks" id="clearTasks" value="Clear Tasks">      
+      </div>
+    </div>
+  </main> 
+
+  <!-- <script src="/js/w3c.js"></script> -->
+</body>
+</html>
