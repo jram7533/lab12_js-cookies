@@ -126,7 +126,7 @@ input[type="button"] {
     margin-bottom: .5rem;
     font-size: 1.3rem;
     padding: .5rem;
-    cursor: crosshair;
+    cursor: no-drop;
   }
 
   & > li:nth-child(even) {
@@ -135,6 +135,12 @@ input[type="button"] {
 
   & > li:last-child {
     margin: 0;
+  }
+
+  & > li:hover {
+    transition: .5s;
+    background: #f27777;
+    color: white;
   }
 }
 
